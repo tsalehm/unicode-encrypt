@@ -1,5 +1,5 @@
 import hashlib,random
-badlist=[ord(i) for i in '[/\|*:?<>".']+[i for i in range(33)]
+badlist=[i for i in range(32)]
 rnd=random.Random(1)
 
 def tableforpass(password) -> list:
